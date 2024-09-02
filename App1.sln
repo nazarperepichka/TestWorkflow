@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App1.Console", "App1.Console\App1.Console.csproj", "{F868CE6F-246C-4A77-95E4-26C6E0A23356}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App1.Tests", "App1.Tests\App1.Tests.csproj", "{272C3DB2-333D-4614-AB17-C7C451F19F4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{DAEE00FB-239B-4175-961F-68BFE5324F52}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build-validation.yml = .github\workflows\build-validation.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F868CE6F-246C-4A77-95E4-26C6E0A23356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F868CE6F-246C-4A77-95E4-26C6E0A23356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F868CE6F-246C-4A77-95E4-26C6E0A23356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F868CE6F-246C-4A77-95E4-26C6E0A23356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{272C3DB2-333D-4614-AB17-C7C451F19F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{272C3DB2-333D-4614-AB17-C7C451F19F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{272C3DB2-333D-4614-AB17-C7C451F19F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{272C3DB2-333D-4614-AB17-C7C451F19F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A56A965-0F76-4FCF-B9B5-6FC95C0F1128}
+	EndGlobalSection
+EndGlobal
