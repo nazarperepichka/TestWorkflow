@@ -1,2 +1,5 @@
 # TestWorkflow
-[![build](https://github.com/nazarperepichka/TestWorkflow/actions/workflows/build-validation.yml/badge.svg)](https://github.com/nazarperepichka/TestWorkflow/actions/workflows/build-validation.yml)
+
+https://learn.microsoft.com/en-us/dotnet/devops/dotnet-build-github-action
+
+[![build](https://github.com/nazarperepichka/TestWorkflow/actions/workflows/build.yml/badge.svg)](https://github.com/nazarperepichka/TestWorkflow/actions/workflows/build.yml)

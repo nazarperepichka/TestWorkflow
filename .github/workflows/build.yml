@@ -11,9 +11,9 @@ env:
   DOTNET_VERSION: '8.0.400'
 
 jobs:
-  build:
+  build-and-test:
 
-    name: build-${{matrix.os}}
+    name: build-and-test-${{matrix.os}}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
