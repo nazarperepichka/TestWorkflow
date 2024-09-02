@@ -1,1 +1,2 @@
 # TestWorkflow
+[![build](https://github.com/nazarperepichka/TestWorkflow/actions/workflows/build-validation.yml/badge.svg)](https://github.com/nazarperepichka/TestWorkflow/actions/workflows/build-validation.yml)
